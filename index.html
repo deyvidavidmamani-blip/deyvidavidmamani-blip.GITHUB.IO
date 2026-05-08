@@ -1,1 +1,116 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tienda de soga</title>
+  <style>
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--cream);
+      color: var(--charcoal);
+      min-height: 100vh;
+    }
+ 
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.5rem 3rem;
+      position: sticky;
+      top: 0;
+    }
+ 
+    .product-page {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+ 
+    .color-swatch {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+ 
+    .btn-primary {
+      width: 100%;
+      padding: 1rem;
+      background: var(--charcoal);
+      color: var(--cream);
+      text-transform: uppercase;
+    }
+  </style>
+</head>
+<body>
+ 
+<nav>
+  <div class="logo">FORMA</div>
+  <ul class="nav-links">
+    <li><a href="#">Colección</a></li>
+    <li><a href="#">Mujer</a></li>
+    <li><a href="#">Hombre</a></li>
+  </ul>
+</nav>
+ 
+<!-- SECCIÓN IMAGEN -->
+<section class="image-section">
+  <svg id="garmentSvg" viewBox="0 0 200 260">
+    <path id="garmentBody"
+      d="M60,60 L30,90 L20,140 L45,145..."
+      fill="#C4A882"/>
+    <path id="garmentNeck"
+      d="M78,60 Q100,48 122,60..."
+      fill="#A8885E"/>
+  </svg>
+</section>
+ 
+<!-- SELECTOR DE COLORES -->
+<div class="colors-grid" id="colorsGrid"></div>
+ 
+<!-- SELECTOR DE TALLAS -->
+<div class="sizes-row" id="sizesRow"></div>
+ 
+<button class="btn-primary" onclick="addToCart()">
+  Agregar al carrito
+</button>
+ 
+<script>
+  const colors = [
+    { name: "Arena Natural",  hex: "#C4A882" },
+    { name: "Marfil Crema",   hex: "#F0E8D5" },
+    { name: "Verde Salvia",   hex: "#8BA888" },
+    { name: "Azul Niebla",    hex: "#7A9BB5" },
+    { name: "Terracota",      hex: "#C4745A" },
+    { name: "Carbón",         hex: "#4A4A48" },
+  ];
+ 
+  let selectedColor = 0;
+  let selectedSize  = null;
+  let qty           = 1;
+  let cartCount     = 0;
+ 
+  function selectColor(i) {
+    selectedColor = i;
+    const c = colors[i];
+    document.getElementById('garmentBody')
+      .setAttribute('fill', c.hex);
+    renderColors();
+  }
+ 
+  function changeQty(delta) {
+    qty = Math.max(1, Math.min(10, qty + delta));
+    document.getElementById('qtyDisplay')
+      .textContent = qty;
+  }
+ 
+  function addToCart() {
+    if (!selectedSize) return;
+    cartCount += qty;
+    document.getElementById('cartCount')
+      .textContent = cartCount;
+  }
+</script>
+</body>
+</html>
