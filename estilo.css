@@ -1,71 +1,30 @@
-#experiencia{
-    font-size: large;
-}
-.destacado{
-    color: #00f;
-}
-strong{
-    font-weight: normal;
-}
-h1{
-    color:green;
-}
 body{
-    color: #f04;
-    
+    background-color: #2dcadfb2;
+    background-size:cover;
+ 
 }
-.prueva{
-    color: rgb(0, 0, 0);
-}
+#encavesado{
+    background-color: #0aa3b8b2;
+    background-size: 100%;
+    margin-top: 10px;
 
-.nabla {
-  font-family: "Nabla", system-ui;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "EDPT" 100,
-    "EHLT" 12;
 }
+.imagen{
+    background-image: url(WhatsApp\ Image\ 2026-05-09\ at\ 8.19.52\ PM.jpeg);
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-position: 10px 1px;
+    height: 400px;
 
-.bitcount {
-  font-family: "Bitcount Grid Double Ink", system-ui;
-  font-optical-sizing: auto;
-  font-weight:700;
-  font-style: normal;
-  font-variation-settings:
-    "slnt" 0,
-    "CRSV" 0.5,
-    "ELSH" 0,
-    "ELXP" 0,
-    "SZP1" 0,
-    "SZP2" 0,
-    "XPN1" 0,
-    "XPN2" 0,
-    "YPN1" 0,
-    "YPN2" 0;
 }
-.padre{
-    color: black;
-    font-style: italic;
+.pie_de_pagina{
+    background-color: #0aa3b8b2;
+    background-size: 100%;
+    margin-right: 10px;
 }
-.hijo{
-    font-weight: bold;
-    font-style: normal;
-    color: blueviolet; 
-}
-.proyecto{
-    color: rgb(0, 0, 0);
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(255, 255, 255);
-}
-.caja{
-    border: solid 1px green;
-    margin: 20px;
-    padding: 50px;
-    
-}
-#inicio{
-    margin: 25%;
-    margin-right: 45%;
+.text-center{
+    background-color: #0aa3b8b2;
+    background-size: 100%;
+    margin-right: 10px;
+    font-size: 20px;
 }
