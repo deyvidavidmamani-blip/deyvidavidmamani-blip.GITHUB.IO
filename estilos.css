@@ -1,20 +1,20 @@
 body{
     background-color: #2dcadfb2;
     background-size:cover;
+    margin: ;
  
 }
 #encavesado{
     background-color: #0aa3b8b2;
     background-size: 100%;
     margin-top: 10px;
-
 }
 .imagen{
-    background-image: url(WhatsApp\ Image\ 2026-05-09\ at\ 8.19.52\ PM.jpeg);
-    background-size: 50% 100%;
-    background-repeat: no-repeat;
-    background-position: 10px 1px;
-    height: 400px;
+    background-color: #0aa3b8b2;
+    background: url(paquete\ de\ rollos.jpeg);
+    background-size:50%, cover;
+    background-repeat:repeat-y;
+    margin: 10px;
 
 }
 .pie_de_pagina{
@@ -29,5 +29,59 @@ body{
     font-size: 20px;
 }
 .lateral{
-    margin-left: 10px ;
+    background-color: #0aa3b8b2;
+    background-size: 100%;
+    margin: 20px;
+}
+
+
+#inicio{
+    background-color: #9ba19d4d;
+    background-size: 100px;
+    font-size: 4vw;margin: 0;
+    font-family: "ALGERIAN", serif;
+    text-align: center;
+    color: #e9e9dafd;
+} 
+.inicio{
+    background-color: #b1e0bf4d;
+    font-size: 2.5vw;margin: 0;
+    font-family: "times new roman", serif;
+    text-align: justify;
+    text-transform: lowercase;
+    margin-left: 51%;
+    margin-right: 10px;
+    color: #0025c9;
+} 
+.texto{
+    background-color: #b1e0bf4d;
+    background: transparent;
+    font-size: 2.5vw;margin: 0;
+    font-family: "times new roman", serif;
+    text-align: justify;
+    text-transform: lowercase;
+    margin-top: -20%;
+    margin-left: 25%;
+    margin-right: 10px;
+    color: #0025c9;
+}
+.maquina{
+    width: 20%;
+    margin-left: 10px;
+}  
+.cojinete_talblilla{
+    width: 35%;
+    margin-left: 10px;
+}
+.texto2{
+    background-color: #b1e0bf4d;
+    background: transparent;
+    font-size: 2.5vw;margin: 0;
+    font-family: "times new roman", serif;
+    text-align: justify;
+    text-transform: lowercase;
+    margin-top: -25%;
+    margin-left: 60%;
+    margin-right: 10px;
+    color: #0025c9;
 }
