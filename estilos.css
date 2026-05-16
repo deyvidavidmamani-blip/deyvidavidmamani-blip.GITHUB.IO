@@ -85,3 +85,79 @@ body{
     margin-right: 10px;
     color: #0025c9;
 }
+.textol{
+    background-color: #b1e0bf4d;
+    background: transparent;
+    font-size: 2.5vw;margin: 0;
+    font-family: "times new roman", serif;
+    text-align: justify;
+    text-transform: lowercase;
+    margin-top: -20%;
+    margin-left: 40%;
+    margin-right: 10px;
+    color: #0025c9;
+}
+.lanawayo{
+    width: 15%;
+    height: 250px;
+    margin-top: -40%;
+    margin-left: 23%;
+}
+.lanarollo{
+    width: 33%;
+    height: 200px;
+    margin-top: -25px;
+    margin-left: -480px;
+    margin-bottom: 10px;
+}
+.textol2{
+    background-color: #b1e0bf4d;
+    background: transparent;
+    font-size: 2.5vw;margin: 0;
+    font-family: "times new roman", serif;
+    text-align: justify;
+    text-transform: lowercase;
+    margin-top: -200px;
+    margin-bottom: 30px;
+    margin-left: 36%;
+    margin-right: 10px;
+    color: #3658ec;
+}
+.textoca{
+    background-color: #b1e0bf4d;
+    background: transparent;
+    font-size: 2.5vw;margin: 0;
+    font-family: "times new roman", serif;
+    text-align: justify;
+    text-transform: lowercase;
+    margin-top: -20%;
+    margin-left: 42%;
+    margin-right: 10px;
+    color: #0025c9;
+}
+.cañamowayo{
+    width: 18%;
+    height: 250px;
+    margin-top: -38%;
+    margin-left: 23%;
+}
+.cañamorollo{
+    width: 33%;
+    height: 230px;
+    margin-top: 20px;
+    margin-left: -520px;
+    margin-bottom: 10px;
+}
+.textoca2{
+    background-color: #b1e0bf4d;
+    background: transparent;
+    font-size: 2.5vw;margin: 0;
+    font-family: "times new roman", serif;
+    text-align: justify;
+    text-transform: lowercase;
+    margin-top: -245px;
+    margin-bottom: 30px;
+    margin-left: 36%;
+    margin-right: 10px;
+    color: #3658ec;
+}
