@@ -1,7 +1,7 @@
 body{
     background-color: #2dcadfb2;
     background-size:cover;
-    margin: ;
+    margin: 10;
  
 }
 #encavesado{
@@ -160,4 +160,152 @@ body{
     margin-left: 36%;
     margin-right: 10px;
     color: #3658ec;
+}
+.textomi{
+    background-color: #b1e0bf4d;
+    background: transparent;
+    font-size: 2.5vw;margin: 0;
+    font-family: "times new roman", serif;
+    text-align: justify;
+    text-transform: lowercase;
+    margin-top: -20%;
+    margin-left: 40%;
+    margin-right: 10px;
+    color: #0025c9;
+}
+.mixtowayo{
+    width: 15%;
+    height: 250px;
+    margin-top: -40%;
+    margin-left: 23%;
+}
+.mixtorollo{
+    width: 33%;
+    height: 200px;
+    margin-top: -25px;
+    margin-left: -480px;
+    margin-bottom: 10px;
+}
+.textomi2{
+    background-color: #b1e0bf4d;
+    background: transparent;
+    font-size: 2.5vw;margin: 0;
+    font-family: "times new roman", serif;
+    text-align: justify;
+    text-transform: lowercase;
+    margin-top: -200px;
+    margin-bottom: 30px;
+    margin-left: 36%;
+    margin-right: 10px;
+    color: #3658ec;
+}
+.textoce{
+    background-color: #b1e0bf4d;
+    background: transparent;
+    font-size: 2.5vw;margin: 0;
+    font-family: "times new roman", serif;
+    text-align: justify;
+    text-transform: lowercase;
+    margin-top: -20%;
+    margin-left: 40%;
+    margin-right: 10px;
+    color: #0025c9;
+}
+.cerdawayo{
+    width: 15%;
+    height: 330px;
+    margin-top: -53%;
+    margin-left: 23%;
+}
+.cerdarollo{
+    width: 30%;
+    height: 230px;
+    margin-top: 20px;
+    margin-left: -450px;
+    margin-bottom: 10px;
+}
+.textoce2{
+    background-color: #b1e0bf4d;
+    background: transparent;
+    font-size: 2.5vw;margin: 0;
+    font-family: "times new roman", serif;
+    text-align: justify;
+    text-transform: lowercase;
+    margin-top: -245px;
+    margin-bottom: 30px;
+    margin-left: 36%;
+    margin-right: 10px;
+    color: #3658ec;
+}
+.textomuyuri{
+    background-color: #b1e0bf4d;
+    background: transparent;
+    font-size: 2vw;margin: 0;
+    font-family: "times new roman", serif;
+    text-align: justify;
+    text-transform: lowercase;
+    margin-top: -12%;
+    margin-left: 40%;
+    margin-right: 10px;
+    color: #0025c9;
+}
+.muyuri{
+    width: 230px;
+    height: 220px;
+    margin-top: -17%;
+    margin-left: 22%;
+}
+.textochiñuña{
+    background-color: #b1e0bf4d;
+    background: transparent;
+    font-size: 2vw;margin: 0;
+    font-family: "times new roman", serif;
+    text-align: justify;
+    text-transform: lowercase;
+    margin-top: -12%;
+    margin-left: 40%;
+    margin-right: 10px;
+    color: #0025c9;
+}
+.chiñuña{
+    width: 230px;
+    height: 220px;
+    margin-top: -17%;
+    margin-left: 22%;
+}
+.textocinta{
+    background-color: #b1e0bf4d;
+    background: transparent;
+    font-size: 2vw;margin: 0;
+    font-family: "times new roman", serif;
+    text-align: justify;
+    text-transform: lowercase;
+    margin-top: -12%;
+    margin-left: 40%;
+    margin-right: 10px;
+    color: #0025c9;
+}
+.cinta{
+    width: 230px;
+    height: 220px;
+    margin-top: -17%;
+    margin-left: 22%;
+}
+.textosoga{
+    background-color: #b1e0bf4d;
+    background: transparent;
+    font-size: 2vw;margin: 0;
+    font-family: "times new roman", serif;
+    text-align: justify;
+    text-transform: lowercase;
+    margin-top: -12%;
+    margin-left: 40%;
+    margin-right: 10px;
+    color: #0025c9;
+}
+.soga{
+    width: 230px;
+    height: 220px;
+    margin-top: -20%;
+    margin-left: 22%;
 }
