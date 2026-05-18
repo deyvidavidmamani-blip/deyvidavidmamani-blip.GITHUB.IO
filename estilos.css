@@ -309,3 +309,45 @@ body{
     margin-top: -20%;
     margin-left: 22%;
 }
+#imagen{
+    background-image: url(paquetes.jpeg);
+    background-color: #2dcadfb2;
+    background-size:cover;
+    margin: 10;
+}
+.textocavezal{
+    background-color: #b1e0bf4d;
+    background: transparent;
+    font-size: 2.5vw;margin: 0;
+    font-family: "times new roman", serif;
+    text-align: justify;
+    text-transform: lowercase;
+    margin-top: -13%;
+    margin-left: 40%;
+    margin-right: 10px;
+    color: #0025c9;
+}
+.cabezal{
+    width: 230px;
+    height: 260px;
+    margin-top: -25%;
+    margin-left: 22%;
+}
+.textoganado{
+    background-color: #b1e0bf4d;
+    background: transparent;
+    font-size: 2vw;margin: 0;
+    font-family: "times new roman", serif;
+    text-align: justify;
+    text-transform: lowercase;
+    margin-top: -13%;
+    margin-left: 40%;
+    margin-right: 10px;
+    color: #0025c9;
+}
+.ganado{
+    width: 230px;
+    height: 220px;
+    margin-top: -19%;
+    margin-left: 22%;
+}
