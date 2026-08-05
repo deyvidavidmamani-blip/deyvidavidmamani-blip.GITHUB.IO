@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUMAOMA - Nuestro equipo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="stile.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="menu container">
+            <a href="index.html" class="logo">
+                <img src="titulo-Photoroom.png" alt="Sumaoma - Logo">
+            </a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="ensima.png" class="menu-icono" alt="icono">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="producto.html">Producto</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img id="img-carrito" src="carrito.png" width="35px" height="35px" alt="car">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-3">Vaciar carrito</a>
+                            <a href="contacto.html" id="comprar-carrito" class="btn-3 btn-comprar">Comprar <span id="total-carrito">S/0.00</span></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header-content container">
+            <div class="header-txt header-txt--solo">
+                <span>Nuestro equipo</span>
+                <h1>El equipo detrás de Sumauma</h1>
+                <p>
+                    Personas comprometidas con llevar agua pura y bienestar
+                    a cada hogar y negocio de la comunidad.
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <main class="container historia">
+        <p class="parrafo-destacado">
+            Detrás de cada botella hay un grupo de personas que comparte un mismo propósito:
+            cuidar la salud de quienes confían en nosotros.
+        </p>
+
+        <div class="equipo-grid">
+
+            <div class="integrante">
+                <img src="integrante-1.jpeg" alt="Tatiana Eliana Alania Gutierrez">
+                <div class="integrante-info">
+                    <h3>Luz Malena Mita Perez</h3>
+                </div>
+            </div>
+
+            <div class="integrante">
+                <img src="integrante-2.jpeg" alt="Mary Natalia Mamani Huaycani">
+                <div class="integrante-info">
+                    <h3>Tatiana Eliana Alania Gutierrez</h3>
+                </div>
+            </div>
+
+            <div class="integrante">
+                <img src="integrante-3.jpeg" alt="Karen Rosa Rivera Serrano">
+                <div class="integrante-info">
+                    <h3>Mary Natalia Mamani Huaycani</h3>
+                </div>
+            </div>
+
+            <div class="integrante">
+                <img src="integrante-4.jpeg" alt="Luz Malena Mita Perez">
+                <div class="integrante-info">
+                    <h3>Lizeth Leydi Chambilla Choque</h3>
+                </div>
+            </div>
+
+            <div class="integrante">
+                <img src="integrante-5.jpeg" alt="Lizeth Leydi Chambilla Choque">
+                <div class="integrante-info">
+                    <h3>Karen Rosa Rivera Serrano</h3>
+                </div>
+            </div>
+
+            <div class="integrante">
+                <img src="integrante-6.jpeg" alt="Jhoelia Mishel Cotrado Montalico">
+                <div class="integrante-info">
+                    <h3>Jhoelia Mishel Cotrado Montalico</h3>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="link">
+                <h3>Sobre nosotros</h3>
+                <ul>
+                    <li><a href="historia.html">Nuestra historia</a></li>
+                    <li><a href="equipo.html">Nuestro equipo</a></li>
+                    <li><a href="identidad.html">Identidad</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Enlaces útiles</h3>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="producto.html">Producto</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

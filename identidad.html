@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUMAOMA - Identidad</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="stile.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="menu container">
+            <a href="index.html" class="logo">
+                <img src="titulo-Photoroom.png" alt="Sumaoma - Logo">
+            </a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="ensima.png" class="menu-icono" alt="icono">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="producto.html">Producto</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img id="img-carrito" src="carrito.png" width="35px" height="35px" alt="car">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-3">Vaciar carrito</a>
+                            <a href="contacto.html" id="comprar-carrito" class="btn-3 btn-comprar">Comprar <span id="total-carrito">S/0.00</span></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header-content container">
+            <div class="header-txt header-txt--solo">
+                <span>Nuestra identidad</span>
+                <h1>Misión, visión y valores</h1>
+                <p>
+                    Lo que somos, hacia dónde vamos y los principios
+                    que nos guían en cada decisión.
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <main class="container historia">
+
+        <section class="identidad-bloque">
+            <div class="identidad-icono">M</div>
+            <div>
+                <h2>Misión</h2>
+                <p>
+                    Producir y comercializar agua de mesa de alta pureza para las familias,
+                    instituciones y visitantes de la región Puno, cuidando la salud de nuestros
+                    consumidores, generando desarrollo local y poniendo en valor la identidad
+                    cultural andina en cada presentación de nuestro producto.
+                </p>
+            </div>
+        </section>
+
+        <section class="identidad-bloque">
+            <div class="identidad-icono">V</div>
+            <div>
+                <h2>Visión</h2>
+                <p>
+                    Ser al año 2030, la marca de agua de mesa líder y más reconocida de la
+                    Región Puno, referente de calidad, identidad andina y compromiso con el
+                    cuidado del recurso hídrico del altiplano, con proyección hacia el sur
+                    del país.
+                </p>
+            </div>
+        </section>
+
+        <section class="identidad-bloque">
+            <div class="identidad-icono">V</div>
+            <div>
+                <h2>Valores</h2>
+                <p>
+                    <strong>Pureza y calidad:</strong> garantizar un producto seguro en cada lote.
+                </p>
+                <p>
+                    <strong>Identidad andina:</strong> poner en valor la cultura aimara y quechua
+                    en la marca.
+                </p>
+                <p>
+                    <strong>Responsabilidad ambiental:</strong> uso responsable de agua y reducción
+                    de plástico.
+                </p>
+                <p>
+                    <strong>Compromiso con la salud:</strong> contribuir al bienestar de las
+                    familias puneñas.
+                </p>
+                <p>
+                    <strong>Honestidad y transparencia:</strong> con clientes, proveedores y
+                    colaboradores.
+                </p>
+                <p>
+                    <strong>Ayni (reciprocidad):</strong> trabajo en equipo y compromiso con la
+                    comunidad.
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="link">
+                <h3>Sobre nosotros</h3>
+                <ul>
+                    <li><a href="historia.html">Nuestra historia</a></li>
+                    <li><a href="equipo.html">Nuestro equipo</a></li>
+                    <li><a href="identidad.html">Identidad</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Enlaces útiles</h3>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="producto.html">Producto</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
